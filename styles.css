@@ -24,13 +24,9 @@ body {
         max-width: 100%;
         display: block;
         object-fit: cover;
+        border-radius: 10px;
 }
 
-@media (min-width: 400px) {
-        .recipe-img {
-                margin: 0 auto;
-        }
-}
 
 h1 {
         font-family: "Young Serif", serif;
@@ -72,7 +68,12 @@ ol li::marker {
 }
 
 @media (min-width: 400px) {
-        
+        .container {
+                padding: 1.5em;
+                margin: 5em auto;
+                max-width: 650px;
+                border-radius: 15px;
+        }
 }
 .recipe-section {
         border-bottom: 2px solid var(--stone150);
@@ -85,7 +86,7 @@ ol li::marker {
 
 .recipe-section-prep {
         background-color: var(--rose50);
-        border-radius: 5px;
+        border-radius: 10px;
         padding: .25em 1em;
         margin-top: 1.5em;
         overflow-wrap: anywhere;
