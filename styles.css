@@ -3,8 +3,12 @@ body {
         font-family: "Outfit", sans-serif; 
         font-weight: 400;
         color: var(--stone600);
-        /* font-family: "Outfit", sans-serif;    for paragraphs 400,600,700*/
-        background-color: var(--stone100);
+}
+
+@media (min-width: 250px) {
+        body {
+                background-color: var(--stone100);
+        }
 }
 
 :root {
@@ -67,7 +71,7 @@ ol li::marker {
         padding: 1em 1.5em;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
         .container {
                 padding: 1.5em;
                 margin: 5em auto;
