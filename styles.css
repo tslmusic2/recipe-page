@@ -60,10 +60,21 @@ ol li::marker {
 .container {
         margin: 1em;
 }
+
+.recipe-section {
+        border-bottom: 2px solid var(--stone150);
+        padding-bottom: .5em;
+}
+
+.recipe-section:last-child {
+        border: none;
+}
+
 .recipe-section-prep {
         background-color: var(--rose50);
         border-radius: 5px;
         padding: .25em 1em;
+        margin-top: 1.5em;
 }
 
 ol, ul {
@@ -72,6 +83,28 @@ ol, ul {
 
 li {
         padding-left: 1em;
+        margin-bottom: .5em;
 }
 
-/*add line break between sections......also finish styling on nutrition section.  after finishing mobile move on to desktop layout*/
+/* Nutrition Table Layout*/
+
+.nutrition-table {
+       width: 100%;
+       border-collapse: collapse;
+}
+
+caption {
+        text-align: left;
+        border: 2px dashed blue;
+}
+
+tr {
+        border-bottom: 2px solid var(--stone150);
+        text-align: left;
+}
+
+.nutrition-table-head {
+       padding: .5em 0 .5em 2em;
+}
+
+/*mobile DONE move on to desktop layout*/
