@@ -2,7 +2,7 @@ body {
         margin: 0;
         font-family: "Outfit", sans-serif; 
         font-weight: 400;
-        color: var(--stone600)
+        color: var(--stone600);
         /* font-family: "Outfit", sans-serif;    for paragraphs 400,600,700*/
 }
 
@@ -19,6 +19,12 @@ body {
 
 /*    TYPOGRAPHY     */
 
+.recipe-img {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+}
+
 h1 {
         font-family: "Young Serif", serif;
         color: var(--stone900)
@@ -31,4 +37,41 @@ h2 {
 
 .prep-time {
         color: var(--rose800);
+        font-size: 1.15rem;
 }
+
+ol li::marker {
+        color: var(--brown800);
+        font-weight: 700;
+}
+
+.nutrition-table-head {
+        font-weight: normal;
+}
+
+.nutrition-table-data {
+        color: var(--brown800);
+        font-weight: 700;
+}
+
+
+/*    LAYOUT     */
+
+.container {
+        margin: 1em;
+}
+.recipe-section-prep {
+        background-color: var(--rose50);
+        border-radius: 5px;
+        padding: .25em 1em;
+}
+
+ol, ul {
+        padding-left: 1.5em;
+}
+
+li {
+        padding-left: 1em;
+}
+
+/*add line break between sections......also finish styling on nutrition section.  after finishing mobile move on to desktop layout*/
