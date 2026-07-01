@@ -67,7 +67,7 @@ ol li::marker {
         padding: 1em 1.5em;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 400px) {
         .container {
                 padding: 1.5em;
                 margin: 5em auto;
