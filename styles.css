@@ -4,6 +4,7 @@ body {
         font-weight: 400;
         color: var(--stone600);
         /* font-family: "Outfit", sans-serif;    for paragraphs 400,600,700*/
+        background-color: var(--stone100);
 }
 
 :root {
@@ -23,6 +24,12 @@ body {
         max-width: 100%;
         display: block;
         object-fit: cover;
+}
+
+@media (min-width: 400px) {
+        .recipe-img {
+                margin: 0 auto;
+        }
 }
 
 h1 {
@@ -60,9 +67,13 @@ ol li::marker {
 /*    LAYOUT     */
 
 .container {
-        margin: 1em;
+        background-color: #fff;
+        padding: 1em 1.5em;
 }
 
+@media (min-width: 400px) {
+        
+}
 .recipe-section {
         border-bottom: 2px solid var(--stone150);
         padding-bottom: .5em;
