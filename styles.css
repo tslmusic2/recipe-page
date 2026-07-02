@@ -5,7 +5,7 @@ body {
         color: var(--stone600);
 }
 
-@media (min-width: 250px) {
+@media (min-width: 400px) {
         body {
                 background-color: var(--stone100);
         }
@@ -26,11 +26,9 @@ body {
 
 .recipe-img {
         max-width: 100%;
-        display: block;
         object-fit: cover;
         border-radius: 10px;
 }
-
 
 h1 {
         font-family: "Young Serif", serif;
@@ -69,6 +67,8 @@ ol li::marker {
 .container {
         background-color: #fff;
         padding: 1em 1.5em;
+        margin: 0 auto;
+        width: 100%;
 }
 
 @media (min-width: 450px) {
@@ -124,5 +124,3 @@ tr {
 .nutrition-table-head {
        padding: .5em 0 .5em 2em;
 }
-
-/*mobile DONE move on to desktop layout*/
