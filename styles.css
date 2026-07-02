@@ -79,7 +79,13 @@ ol li::marker {
                 max-width: 650px;
                 border-radius: 15px;
         }
+        .img-container{
+                width: 100%;
+                margin: 0;
+        }
 }
+
+
 .recipe-section {
         border-bottom: 2px solid var(--stone150);
         padding-bottom: .5em;
